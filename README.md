@@ -324,9 +324,9 @@ MedFlow Nexus transforms hospitals from reactive operations to predictive planni
 
 Screenshots
 
-Add project screenshots here
 
 Getting Started
+
 git clone <repo-url>
 cd medflow-nexus
 npm install
