@@ -18,6 +18,12 @@ export function MasterOptimize() {
           <div className="h-10 w-10 rounded-xl bg-primary/20 flex items-center justify-center group-hover:glow-md transition-all">
             <Zap className="h-5 w-5 text-primary" />
           </div>
+              <button onClick={runOptimize}
+        className="w-full glass rounded-xl p-4 text-center hover:neon-border transition-all group">
+        <div className="flex items-center justify-center gap-3">
+          <div className="h-10 w-10 rounded-xl bg-primary/20 flex items-center justify-center group-hover:glow-md transition-all">
+            <Zap className="h-5 w-5 text-primary" />
+          </div>
           <div className="text-left">
             <p className="text-sm font-bold text-foreground">ACTIVATE MEDFLOW NEXUS</p>
             <p className="text-[10px] text-muted-foreground">Run full system optimization across all modules</p>
