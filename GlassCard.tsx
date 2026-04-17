@@ -13,7 +13,11 @@ export function GlassCard({ className, glow, children, ...props }: GlassCardProp
         className
       )}
       {...props}
-    >
+    >className={cn(
+        "glass rounded-xl p-6 transition-all duration-300",
+        glow && "neon-border",
+        className
+      )}
       {children}
     </div>
   );
