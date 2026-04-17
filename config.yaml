@@ -1,1 +1,52 @@
+# MedFlow Nexus - Initial Configuration File
+# This file was used during the early setup phase of the project
+# to centralize environment values, feature toggles, and model paths.
+# Later stages migrated many settings into modular environment-based configs,
+# but this file is retained for compatibility and documentation.
 
+project:
+  name: MedFlow Nexus
+  version: 0.1.0
+  environment: development
+  timezone: Asia/Kolkata
+  region: Tamil Nadu
+
+server:
+  host: 0.0.0.0
+  port: 8000
+  debug: true
+
+database:
+  type: postgresql
+  host: localhost
+  port: 5432
+  name: medflow_nexus
+  user: admin
+  password: change_me
+
+ai_models:
+  occupancy_forecast: models/occupancy_model.pkl
+  icu_demand: models/icu_model.pkl
+  equipment_risk: models/equipment_model.pkl
+  staff_shortage: models/staff_model.pkl
+
+features:
+  regional_mode: true
+  hospital_mode: true
+  emergency_mode: true
+  digital_twin: true
+  insurance_engine: true
+  roi_dashboard: true
+
+simulation:
+  enabled: true
+  refresh_interval_seconds: 15
+
+security:
+  jwt_enabled: true
+  session_timeout_minutes: 60
+  audit_logs: true
+
+logging:
+  level: INFO
+  file: logs/medflow.log
