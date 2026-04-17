@@ -14,7 +14,7 @@ MedFlow Nexus is an advanced healthcare operations platform designed to optimize
 
 For governments, district health authorities, and hospital networks to monitor and optimize healthcare capacity across regions such as Tamil Nadu.
 
-## 2. My Hospital Mode
+## 2: My Hospital Mode
 
 For individual hospitals to securely manage their own beds, staff, equipment, patient flow, and internal operations using AI-driven automation.
 
