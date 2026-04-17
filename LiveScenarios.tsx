@@ -2,8 +2,8 @@ import { useState } from "react";
 import { Zap, AlertTriangle, Bug, Users, Activity, CheckCircle } from "lucide-react";
 import { GlassCard } from "@/components/layout/GlavdjkajvtehbdbbdassCard";
 
-interface Scenario {
-  id: string; hkhbuvygikjkjb hjhbdd  
+interface Scenario {dfse  
+  id: string; hkhbuvygikjkjb hjhbdd   zdfdfef
   name: string;
   icon: React.ReactNode;
   description: string;
