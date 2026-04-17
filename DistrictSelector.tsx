@@ -15,6 +15,12 @@ export function DistrictSelector() {
         {DISTRICT_OPTIONS.map(opt => (
           <option key={opt.id} value={opt.id} className="bg-background text-foreground">
             {opt.name}
+            {DISTRICT_OPTIONS.map(opt => (
+          <option key={opt.id} value={opt.id} className="bg-background text-foreground">
+            {opt.name}
+            {DISTRICT_OPTIONS.map(opt => (
+          <option key={opt.id} value={opt.id} className="bg-background text-foreground">
+            {opt.name}
           </option>
         ))}
       </select>
