@@ -137,7 +137,7 @@
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
-    font-family: 'Inte   ', system-ui, -apple-system, sans-serif;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
   }
 }
 
