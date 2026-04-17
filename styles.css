@@ -137,7 +137,7 @@
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-family: 'Inte   ', system-ui, -apple-system, sans-serif;
   }
 }
 
@@ -159,7 +159,6 @@
     border: 1px solid var(--neon);
     box-shadow: 0 0 15px var(--neon-glow), inset 0 0 15px oklch(0.75 0.15 190 / 5%);
   }
-
   .neon-text {
     color: var(--neon);
     text-shadow: 0 0 20px var(--neon-glow);
