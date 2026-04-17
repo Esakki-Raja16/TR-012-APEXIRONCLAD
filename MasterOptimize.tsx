@@ -9,6 +9,10 @@ export function MasterOptimize() {
     setPhase("running");
     setTimeout(() => setPhase("done"), 3000);
   };
+    const runOptimize = () => {
+    setPhase("running");
+    setTimeout(() => setPhase("done"), 3000);
+  };
 
   if (phase === "idle") {
     return (
