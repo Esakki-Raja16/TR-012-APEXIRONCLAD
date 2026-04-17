@@ -1,6 +1,10 @@
 import { Brain, BedDouble, Users, Zap, Shield, BarChart3 } from "lucide-react";
 import { GlassCard } from "@/components/layout/GlassCard";
-
+className={cn(
+        "glass rounded-xl p-6 transition-all duration-300",
+        glow && "neon-border",
+        className
+      )}
 const capabilities = [
   {
     icon: Brain,
